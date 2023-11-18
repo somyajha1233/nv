@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+}
+#logo{
+    position: relative;
+    right: 160px;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    height: 48px;
+    align-items: center;
+    padding: 10px;
+}
+#mid{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-around;
+    
+}
+#mid a {
+    margin: 0 10px; /* Adjust the margin value as needed */
+}
+#brn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 16px;
+    margin: 2px;
+    padding: 6px;
+    position: relative;
+    left: 150px;
+}
+#brn:hover{
+    background-color: rgb(83, 83, 255);
+    border: 1px solid white;
+    color: white;
+    border-radius: 16px;
+    margin: 2px;
+    padding: 6px;
+}
+#brm{
+    background-color: lime;
+    border: 1px solid white;
+    color: black;
+    border-radius: 16px;
+    margin: 2px;
+    padding: 6px;
+}
+#brm:hover{
+    background-color: rgb(0, 255, 229);
+    border: 1px solid white;
+    color: rgb(0, 0, 0);
+    border-radius: 16px;
+    margin: 2px;
+    padding: 6px;
+}
